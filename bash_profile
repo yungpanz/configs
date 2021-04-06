@@ -10,8 +10,7 @@ export EDITOR=vim;
 export VISUAL=vim;
 
 # TERMINAL PROMPT
-
-export PS1="\[$(tput bold)\]\[\033[38;5;10m\]\u\[$(tput sgr0)\] [\[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;14m\]\W\[$(tput sgr0)\]] \\$ \[$(tput sgr0)\]"
+export PS1="\[\033[38;5;10m\]\u\[$(tput sgr0)\] :: [\[$(tput sgr0)\]\[\033[38;5;14m\]\w\[$(tput sgr0)\]] \\$ \[$(tput sgr0)\]"
 #PS1+="\[\e[0;92m\]\$(git_branch)\[\e[m\]"    # current branch
 
 

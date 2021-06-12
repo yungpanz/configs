@@ -15,10 +15,7 @@ au BufWrite /private/tmp/crontab.* set nowritebackup nobackup
 au BufWrite /private/etc/pw.* set nowritebackup nobackup
 
 let skip_defaults_vim=1
-let g:ycm_global_ycm_extra_conf='/Users/paoloanzani/.vim/bundle/youcompleteme/cpp/.ycm_extra_conf.py'
-set completeopt-=preview
 syntax on
-set rnu
 set tabstop=2
 set shiftwidth=2
 set expandtab
@@ -27,6 +24,7 @@ set number
 set hlsearch
 set ruler
 set copyindent
+colorscheme peachpuff
 highlight Comment ctermfg=green
 
 " Remapping

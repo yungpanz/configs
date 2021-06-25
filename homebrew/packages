@@ -1,6 +1,7 @@
 boost
 capstone
 cmake
+cocoapods
 dav1d
 frei0r
 gdb

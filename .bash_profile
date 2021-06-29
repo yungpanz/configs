@@ -16,4 +16,4 @@ alias home="cd ~"
 alias c="clear"
 alias v=$EDITOR
 alias scr="source venv/bin/activate"
-alias ls="ls -lah"
+alias ls="ls -a"

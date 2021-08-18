@@ -1,12 +1,17 @@
+awscli
 boost
 capstone
 cmake
 cocoapods
+dart-lang/dart/dart
 dav1d
+docker
+fish
 frei0r
 gdb
 gnutls
 graphviz
+hashicorp/tap/terraform
 htop
 icarus-verilog
 jansson
@@ -36,6 +41,7 @@ ranger
 rav1e
 rtmpdump
 rubberband
+sass/sass/sass
 sdl2
 smartmontools
 snappy

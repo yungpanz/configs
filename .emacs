@@ -30,6 +30,9 @@
   (disable-theme 'tango-dark))
 (global-set-key (kbd "<f6>") 'switch-light)
 
+;; Show/Hide line at col 80
+(global-set-key (kbd "<f7>") 'display-fill-column-indicator-mode)
+
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.

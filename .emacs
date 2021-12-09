@@ -18,6 +18,19 @@
 (load-library "prolog")
 (setq prolog-program-name "/usr/local/bin/swipl")
 
+;; Switch to dark theme
+(defun switch-dark ()
+  (interactive)
+  (load-theme 'tango-dark))
+(global-set-key (kbd "<f5>") 'switch-dark)
+
+;; Switch to light theme
+(defun switch-light ()
+  (interactive)
+  (disable-theme 'tango-dark))
+(global-set-key (kbd "<f6>") 'switch-light)
+
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -30,3 +43,4 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+
